@@ -27,6 +27,9 @@ def makeUnique(dest, name):
     return nameSplit[0] + " ({}).".format(i) + nameSplit[1]
 
 def move(dest, entry, name):
+    dest_exists = os.path.exists(dest)
+    if not dest_exists:
+        os.makedirs(dest)
     file_exists = os.path.exists(dest + "/" + name)
     if file_exists: 
         name = makeUnique(dest, name)
