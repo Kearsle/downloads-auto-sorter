@@ -4,7 +4,7 @@ Downloads Auto Sorter is a powerful and intuitive file organization program, pro
 
 ## Installation
 
-Install the program by downloading `downloadautosorter`.
+Install the program by downloading `downloadautosorter`, then executing `chmod -x downloadautosorter` whilst within the folder.
 
 ## Implemented Destinations by File Type
 
